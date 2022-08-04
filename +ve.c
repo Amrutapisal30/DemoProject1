@@ -7,6 +7,7 @@ main()
 	if(n>0)
 	{
 		printf("\nnumber is +ve");
+		printf("HELOO WORLD");
 		
 	}
 	else
