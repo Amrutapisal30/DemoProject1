@@ -1,9 +1,14 @@
 #include<stdio.h>
+void fact(int n);
 main()
 {
    int n,i,fact=1;
   printf("\n enter n= ");
   scanf("%d",&n);
+   fact(n);
+}
+void fact(int n)
+{
   for(i=1;i<=n;i++)
   {
     fact=fact*i;
